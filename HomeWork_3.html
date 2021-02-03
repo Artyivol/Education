@@ -1,0 +1,68 @@
+<meta charset="UTF-8">
+
+<!-- 1. С помощью цикла while вывести все простые числа в промежутке от 0 до 100 -->
+
+<!-- 
+    <script>
+        var x = 2;
+
+        while (x <= 100) {
+            var y = 2;
+            while (y <= x) {
+                if (x % y == 0) {  
+                    break;
+                }
+                else {
+                    y++;
+                }
+            }
+            if (x == y) {
+                console.log(x);
+            }
+            x++;
+        }
+
+    </script> -->
+<!-- 
+    3. Товары в корзине хранятся в массиве. Задачи:
+
+    a) Организовать такой массив для хранения товаров в корзине;
+    
+    b) Организовать функцию countBasketPrice, которая будет считать стоимость корзины. -->
+
+
+<script>
+
+    var busket = [
+        {
+            title: "Garret gt 20",
+            manuf: "USA",
+            price: 1500,
+            count: 2
+        },
+        {
+            title: "Garret gt 30",
+            manuf: "Japan",
+            price: 1300,
+            count: 5
+        },
+        {
+            title: "Garret gt 35",
+            manuf: "China",
+            price: 900,
+            count: 10
+        }
+
+
+    ]
+
+    function countBasketPrice(mas) {
+        var sum = 0;
+        for (var item of mas) {
+            sum += item.price * item.count;
+        }
+        return sum
+    }
+    console.log(countBasketPrice(busket))
+
+</script>
