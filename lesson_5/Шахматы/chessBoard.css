@@ -1,0 +1,35 @@
+td.black-cell {
+    width: 50px;
+    height: 50px;
+    background-color: #834e00;
+    border: 2px solid #000;
+}
+td.white-cell {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+td.rotate {
+    transform: rotate(180deg);
+}
+
+td.border-cell {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+.board {
+    border-collapse: collapse;
+}
+#board {
+    display: inline-block;
+}
+td {
+    font-size: 30px;
+    font-weight: 600;
+}
+a {
+    color: black;
+}
