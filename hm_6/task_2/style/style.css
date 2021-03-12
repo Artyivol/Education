@@ -1,0 +1,22 @@
+.eng {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 250px;
+}
+
+#basket img {
+    height: 100px;
+}
+
+#basket {
+    display: flex;
+}
+
+button {
+    margin: 20px;
+}

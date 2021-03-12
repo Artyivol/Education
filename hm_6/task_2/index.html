@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="basket">
+            <img src="img\basket.jpg">
+
+            <p>товары в корзине:</p>
+
+            <ol id="lst">
+
+            </ol>
+        </div>
+
+        <div class="eng">
+            <div id="jz">
+                <h2> Toyota 2JZ-GTE </h2>
+                <p> 1300 </p>
+                <img src="IMAGE/jz.jpg" alt="jz">
+                <button onclick="f(this.parentElement.id)">купить</button>
+            </div>
+            <div id="rb">
+                <h2> Nissan RB26 DETT </h2>
+                <p> 1500 </p>
+                <img src="IMAGE/rb.jpg" alt="rb" onclick="f(this.id)">
+                <button onclick="f(this.parentElement.id)">купить</button>
+            </div>
+            <div id="uz">
+                <h2> Toyota 1UZ-FE</h2>
+                <p> 1000 </p>
+                <img src="IMAGE/uz.jpg" alt="uz" onclick="f(this.id)">
+                <button onclick="f(this.parentElement.id)">купить</button>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
